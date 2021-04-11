@@ -2,6 +2,7 @@ import { render, fireEvent } from '@testing-library/react'
 
 import { useCart } from '../../hooks/useCart'
 import Cart from '../../pages/Cart'
+import '@testing-library/jest-dom/extend-expect'
 
 const mockedRemoveProduct = jest.fn()
 const mockedUpdateProductAmount = jest.fn()

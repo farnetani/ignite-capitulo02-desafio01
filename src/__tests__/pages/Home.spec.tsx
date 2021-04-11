@@ -4,6 +4,7 @@ import { waitFor, render, fireEvent } from '@testing-library/react'
 import { api } from '../../services/api'
 import Home from '../../pages/Home'
 import { useCart } from '../../hooks/useCart'
+import '@testing-library/jest-dom/extend-expect'
 
 const apiMock = new AxiosMock(api)
 const mockedAddProduct = jest.fn()

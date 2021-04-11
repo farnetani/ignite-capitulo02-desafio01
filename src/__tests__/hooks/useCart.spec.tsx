@@ -4,6 +4,7 @@ import AxiosMock from 'axios-mock-adapter'
 import { toast } from 'react-toastify'
 import { api } from '../../services/api'
 import { useCart, CartProvider } from '../../hooks/useCart'
+import '@testing-library/jest-dom/extend-expect'
 
 const apiMock = new AxiosMock(api)
 

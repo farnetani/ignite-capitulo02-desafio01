@@ -1,10 +1,23 @@
-import { GlobalStyle } from './styles/global'
+import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
+import { ToastContainer } from 'react-toastify'
 
-export function App() {
+import Routes from './routes'
+import GlobalStyles from './styles/global'
+import Header from './components/Header'
+import { CartProvider } from './hooks/useCart'
+
+const App = (): JSX.Element => {
   return (
-    <div className="App">
-      <GlobalStyle />
-      <h1 className="title">Hello World</h1>
-    </div>
+    <BrowserRouter>
+      <CartProvider>
+        <GlobalStyles />
+        <Header />
+        <Routes />
+        <ToastContainer autoClose={3000} />
+      </CartProvider>
+    </BrowserRouter>
   )
 }
+
+export default App

@@ -1,10 +1,17 @@
 <h3 align="center">
-  Template Create React App Full
+  Aplicação do Capitulo 02 - Desafio 02 - Cart
 </h3>
 
 <p align="center">
-  <a href="https://farsoft.com.br">
-    <img alt="Feito para Farsoft Systems" src="https://img.shields.io/badge/made%20by-Farsoft%20Systems-purple%2306b656?style=flat-square">
+<img height="330" width="330" alt="Imagem do Aplicativo" src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F3d320e3c-a052-4f72-994e-aa69617ee85c%2FUntitled.png?table=block&id=c553563e-e14f-4b4d-9f80-b44d96c771b8&width=2020&userId=d8362244-4aa7-497b-9894-f26df8db4655&cache=v2">
+</p>
+<p align="center">
+<img width="330" alt="Imagem do Aplicativo" src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa34120df-4046-4a84-8133-6eb987bceac6%2FUntitled.png?table=block&id=4e3c96e5-f7a7-4e1a-9fa9-34d99494047b&width=2000&userId=d8362244-4aa7-497b-9894-f26df8db4655&cache=v2">
+</p>
+
+<p align="center">
+  <a href="#">
+    <img alt="Feito para Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-purple%2306b656?style=flat-square">
   </a>
 
   <a href="https://www.github.com/farnetani/">
@@ -16,25 +23,26 @@
 
 ## :rocket: Sobre o aplicativo
 
-Template padrão utilizando STYLED-COMPONENTS que usaremos na Farsoft para o desenvolvimento de nossos frontens em React.
+Desafio de montar com Context uma pequena aplicação onde são listados itens vindos de uma API JSON Server e que possibilita através do uso de Contexto em React adicionar itens no carrinho e editar a quantidade destes itens e/ou remover os itens um a um. Demonstra algumas validações importantes, como itens sem Estoque e como salvar esse carrinho no Localstorage para não perder com o Refresh da página.
 
-## Outros Templates:
+Mais detalhes ver no link abaixo do desafio:
+[Capítulo 02 - Desafio 01](https://www.notion.so/Desafio-01-Criando-um-hook-de-carrinho-de-compras-5769216778794019a83f544e79167b12)
 
-**[template-react-prettier-manual](https://github.com/farnetani/template-react-prettier-manual)**
+## Testes
+```
+ PASS  src/__tests__/components/Header.spec.tsx
+ PASS  src/__tests__/pages/Home.spec.tsx
+ PASS  src/__tests__/pages/Cart.spec.tsx
+ PASS  src/__tests__/hooks/useCart.spec.tsx
 
-Template para minhas aplicações em React com Eslint + Prettier + Jest sem utilizar o create-react-app.
+Test Suites: 4 passed, 4 total
+Tests:       17 passed, 17 total
+Snapshots:   0 total
+Time:        1.265 s
+Ran all test suites.
 
-**[template-react-sem-css](https://github.com/farnetani/template-react-sem-css)**
-
-Template com Create-React-App + Prettier + outras configurações porém sem a instalação do tailwindCSS ou styled-components, ficando livre pra instalar o que desejar, e também não está com SASS.
-
-**[template-react-tailwindcss](https://github.com/farnetani/template-react-tailwindcss)**
-
-Template com create-react-app + prettier + jest + tailwindcss
-
-**[template-react-styled-components](https://github.com/farnetani/template-react-styled-components)**
-
-Template criado do zero com create-react-app e já configurado para utilizar o styled-components.
+Watch Usage: Press w to show more.
+```
 
 <br>
 
@@ -42,40 +50,15 @@ Template criado do zero com create-react-app e já configurado para utilizar o s
 
 ```bash
 
-In the project directory, you can run:
+### `yarn install`
+
+### `yarn run server`
 
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
 ### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ```
 

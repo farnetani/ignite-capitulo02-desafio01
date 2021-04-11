@@ -1,5 +1,5 @@
 <h3 align="center">
-  Aplicação do Capitulo 02 - Desafio 02 - Criando um hook de carrinho de compras
+  Aplicação do Capitulo 02 - Desafio 01 - Criando um hook de carrinho de compras
 </h3>
 
 <p align="center">

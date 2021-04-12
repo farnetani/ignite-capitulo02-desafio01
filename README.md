@@ -2,6 +2,15 @@
   Aplicação do Capitulo 02 - Desafio 01 - Criando um hook de carrinho de compras
 </h3>
 
+## Testes refeitos (TODOS um a um, tudo certo)
+
+```
+yarn test -t 'Home Page should be able to add a product to cart'
+
+yarn test -t 'Home Page should be able to render each product quantity added to cart'
+
+```
+
 <p align="center">
 <img height="330" width="330" alt="Imagem do Aplicativo" src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F3d320e3c-a052-4f72-994e-aa69617ee85c%2FUntitled.png?table=block&id=c553563e-e14f-4b4d-9f80-b44d96c771b8&width=2020&userId=d8362244-4aa7-497b-9894-f26df8db4655&cache=v2">
 </p>
